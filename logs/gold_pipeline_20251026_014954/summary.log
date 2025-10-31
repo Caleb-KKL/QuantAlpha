@@ -1,0 +1,23 @@
+[WARN] No valid scaler.transform() found. Using raw features for TCN input.
+[INFO] SAGAN Discriminator loaded.
+=== MACRO MODULE ===
+macro_bias: SHORT
+macro_confidence: MEDIUM
+detail: {'Prophet_vote': 'SELL', 'TCN_v1_vote': 'BUY', 'TCN_v2_vote': 'SELL', 'buy_votes': 1, 'sell_votes': 2, 'last_close': 3295.800048828125, 'prophet_pred': 2753.5729086357073, 'tcn1_pred': 5376.2841796875, 'tcn2_pred': 2194.3662109375}
+
+=== MICRO MODULE ===
+risk_state: NORMAL
+micro_signal: NEUTRAL
+pressure_notes: no clear short-term dominance
+disc_score: 70.62269592285156
+
+=== FINAL DECISION ===
+action: WAIT
+confidence: LOW
+reason: Macro bias and tape disagree
+
+Suggested Entry: None
+Stop Loss: None
+Take Profit: None
+[INFO] Figure saved to: /Users/calebkhoo/Documents/Github_Projects/Academic_NUS/ISY5002_Practice_Module/QuantAlpha/logs/gold_pipeline_20251026_014954/figs/overlay_wait.png
+[INFO] JSON summary saved to: /Users/calebkhoo/Documents/Github_Projects/Academic_NUS/ISY5002_Practice_Module/QuantAlpha/logs/gold_pipeline_20251026_014954/summary.json

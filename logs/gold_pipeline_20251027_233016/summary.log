@@ -1,0 +1,23 @@
+[WARN] No valid scaler.transform() found. Using raw features for TCN input.
+[INFO] SAGAN Discriminator loaded.
+=== MACRO MODULE ===
+macro_bias: SHORT
+macro_confidence: MEDIUM
+detail: {'Prophet_vote': 'SELL', 'TCN_v1_vote': 'BUY', 'TCN_v2_vote': 'SELL', 'buy_votes': 1, 'sell_votes': 2, 'last_close': 3295.800048828125, 'prophet_pred': 2753.5729086357073, 'tcn1_pred': 5376.2841796875, 'tcn2_pred': 2194.3662109375}
+
+=== MICRO MODULE ===
+risk_state: NORMAL
+micro_signal: SELL
+pressure_notes: ask pressure, mid drifting down
+disc_score: 79.95974731445312
+
+=== FINAL DECISION ===
+action: SHORT ENTRY
+confidence: MEDIUM
+reason: Macro bearish + local sell pressure + normal regime
+
+Suggested Entry: 3447.95
+Stop Loss: 3448.75
+Take Profit: 3446.95
+[INFO] Figure saved to: /Users/calebkhoo/Documents/Github_Projects/Academic_NUS/ISY5002_Practice_Module/QuantAlpha/logs/gold_pipeline_20251027_233016/figs/overlay_short_entry.png
+[INFO] JSON summary saved to: /Users/calebkhoo/Documents/Github_Projects/Academic_NUS/ISY5002_Practice_Module/QuantAlpha/logs/gold_pipeline_20251027_233016/summary.json

@@ -1,0 +1,38 @@
+{
+  "macro": {
+    "macro_bias": "SHORT",
+    "macro_confidence": "MEDIUM",
+    "detail": {
+      "Prophet_vote": "SELL",
+      "TCN_v1_vote": "BUY",
+      "TCN_v2_vote": "SELL",
+      "buy_votes": 1,
+      "sell_votes": 2,
+      "last_close": 3295.800048828125,
+      "prophet_pred": 2753.5729086357073,
+      "tcn1_pred": 5376.2841796875,
+      "tcn2_pred": 2194.3662109375
+    }
+  },
+  "micro": {
+    "risk_state": "NORMAL",
+    "micro_signal": "NEUTRAL",
+    "pressure_notes": "no clear short-term dominance",
+    "disc_score": 70.62269592285156,
+    "ref_mid": 3397.9845
+  },
+  "decision": {
+    "action": "WAIT",
+    "confidence": "LOW",
+    "reason": "Macro bias and tape disagree"
+  },
+  "levels": {
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null
+  },
+  "artifacts": {
+    "summary_log": "/Users/calebkhoo/Documents/Github_Projects/Academic_NUS/ISY5002_Practice_Module/QuantAlpha/logs/gold_pipeline_20251026_014954/summary.log",
+    "figure": "/Users/calebkhoo/Documents/Github_Projects/Academic_NUS/ISY5002_Practice_Module/QuantAlpha/logs/gold_pipeline_20251026_014954/figs/overlay_wait.png"
+  }
+}
