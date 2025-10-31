@@ -1,4 +1,4 @@
-## QuantAlpha: Gold Trading Signal Pipeline
+## QuantAlpha: Financial Deep Learning Forecasting (Gold XAUUSD)
 
 An end-to-end pipeline that fuses macro forecasting (Prophet + TCN) with microstructure tape-reading (SAGAN discriminator) to produce actionable intraday trade guidance for XAUUSD (Spot Gold).
 
