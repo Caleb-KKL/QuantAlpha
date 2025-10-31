@@ -1,0 +1,23 @@
+{
+    "timestamp": "2025-10-26 04:08:18.060455",
+    "models": {
+        "Prophet": "/content/drive/MyDrive/GoldForecasting_Project (ISY5002)/Models/Prophet/prophet_model.joblib",
+        "TCN_v1": "/content/drive/MyDrive/GoldForecasting_Project (ISY5002)/Models/TCN/tcn_v1_baseline.keras",
+        "TCN_v2": "/content/drive/MyDrive/GoldForecasting_Project (ISY5002)/Models/TCN/tcn_v2_improved.keras",
+        "Scaler": "/content/drive/MyDrive/GoldForecasting_Project (ISY5002)/Models/TCN/tnc_scaler.joblib"
+    },
+    "latest_close": 4146.7998046875,
+    "predictions": {
+        "Prophet": 3587.3916890517626,
+        "TCN_v1": 3425.3,
+        "TCN_v2": 2896.76,
+        "Ensemble_Avg": 3303.15
+    },
+    "signals": {
+        "Prophet": "SELL",
+        "TCN_v1": "SELL",
+        "TCN_v2": "SELL",
+        "Final_Consensus": "SELL"
+    },
+    "direction": "\u2193 Downtrend Expected"
+}
